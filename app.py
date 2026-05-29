@@ -276,7 +276,7 @@ async def get_xanaf_banner(uid: str):
     
     # Use your designed background image
     # IMPORTANT: Save your background as "xanaflegacy.png" in the same folder
-    template_path = os.path.join(os.path.dirname(__file__), "xanaflegacy.png")
+    template_path = os.path.join(os.path.dirname(__file__), "bishallegacy.png")
     if os.path.exists(template_path):
         with open(template_path, "rb") as f:
             template_bytes = f.read()
