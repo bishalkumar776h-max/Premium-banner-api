@@ -1,4 +1,6 @@
 fastapi
 uvicorn
+gunicorn
 httpx
 Pillow
+python-multipart
