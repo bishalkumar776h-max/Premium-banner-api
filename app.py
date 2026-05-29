@@ -238,7 +238,7 @@ def process_xanaf_banner(data, avatar_bytes, banner_bytes, template_bytes):
 async def home():
     return {"status": "BISHAL LEGACY Banner API", "endpoint": "/bishal?uid=UID"}
 
-@app.get("/xanaf")
+@app.get("/bishal")
 async def get_xanaf_banner(uid: str):
     url = f"{INFO_API_URL}?uid={uid}&key={API_KEY}"
     try:
